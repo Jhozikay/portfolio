@@ -1,0 +1,397 @@
+/*  Code By devjhozi */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Nav Menu Start */
+
+header {
+  background: url(images/hero-1.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5%;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav img {
+  width: 150px;
+}
+
+@media (max-width: 575px) {
+  nav img {
+    width: 100px;
+  }
+}
+
+nav span {
+  color: #ed1a1a;
+}
+
+nav h1 {
+  font-size: 2em;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+  font-family: sans-serif;
+  list-style: none;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav .hire-btn a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background: #ed1a1a;
+  border-radius: 30px;
+}
+
+/* Nav Menu End */
+
+/* Hero Section Start */
+@media (max-width: 575px) {
+  .hero-con {
+    padding-bottom: 20px;
+  }
+
+  #hero-sec .textarea {
+    padding-top: 4%;
+    padding-left: 10%;
+    line-height: 40px;
+    color: #fff;
+  }
+
+  #hero-sec .vr-img {
+    display: none;
+  }
+}
+
+#hero-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero-sec .vr-img {
+  width: 400px;
+  padding-right: 100px;
+}
+
+@media (max-width: 778px) {
+  #hero-sec .vr-img {
+    width: 300px;
+    padding-right: 0;
+  }
+}
+
+#hero-sec .name-cr {
+  padding-left: 20px;
+}
+
+#hero-sec .textarea {
+  padding-top: 4%;
+  padding-left: 6%;
+  line-height: 40px;
+  color: #fff;
+}
+
+#hero-sec .textarea .name span {
+  color: #ed1a1a;
+}
+
+#hero-sec .textarea h1 {
+  font-size: 40px;
+}
+
+.input-form {
+  width: fit-content;
+  display: flex;
+}
+
+#hero-sec .textarea input {
+  padding: 8px;
+  outline: none;
+  border: none;
+}
+
+#hero-sec .textarea button {
+  border: none;
+  background: #ed1a1a;
+  cursor: pointer;
+}
+
+#hero-sec .textarea img {
+  width: 25px;
+  background: #ed1a1a;
+  padding: 7px 5px;
+}
+
+#about-me {
+  display: flex;
+}
+
+#about-me img {
+  width: 400px;
+}
+
+/* Hero Section End */
+
+/* Form Section Start */
+
+.form-con {
+  margin: 20px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #000;
+  border-radius: 10px;
+  margin-left: 80%;
+  margin-top: -70%;
+}
+
+#contact-form h1 {
+  color: #fff;
+}
+
+#contact-form input {
+  line-height: 50px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+#contact-form textarea {
+  border: none;
+}
+
+#name {
+  padding: 2px 100px 2px 3px;
+  text-align: left;
+  background: #fff;
+}
+
+#message {
+  padding: 30px 10px;
+}
+
+/* Form Section End */
+
+/* Offers Section Start */
+
+#offers-sec h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#offers-con {
+  display: flex;
+  padding: 20px;
+}
+
+
+#offers-con .offers-item {
+  margin: 10px;
+  background: #100D5A;
+  padding: 20px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+
+#offers-con .offers-item h1 {
+  text-align: center;
+}
+
+#offers-con .offers-item h4 {
+  color: #fff;
+  text-align: left;
+}
+
+#offers-con .offers-item p {
+  color: #fff;
+}
+
+@media (max-width: 575px) {
+  #offers-con {
+    flex-direction: column;
+  }
+}
+
+/* Offers Section End */
+
+/* About Section Start */
+
+#about-con {
+  display: flex;
+  padding: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-con img {
+  width: 300px;
+}
+
+#about-con .about-text {
+  width: 50%;
+  color: #333;
+}
+
+#about-con .about-text a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px;
+  color: #fff;
+  background: #ed1a1a;
+  border-radius: 50px;
+}
+
+@media (max-width: 575px) {
+  #about-con {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-con img {
+    width: 100%;
+  }
+
+  #about-con .about-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* About Sec End */
+
+/* Call to action sec start */
+
+#call-to-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 20vh;
+  color: #fff;
+  text-align: center;
+  background: #0F0B57;
+}
+
+#call-to-action a {
+  margin-top: 10px;
+  padding: 10px;
+  background: #ed1a1a;
+  border-radius: 30px;
+  color: #fff;
+}
+
+/* Call to action sec end */
+
+/* Specialization section start */
+
+.specialization-sec h1 {
+  text-align: center;
+}
+
+#specialization-con {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+#specialization-con img {
+  width: 100px;
+}
+
+#specialization-con .specialization-logo1 {
+  margin: 10px;
+}
+
+.wordpress-sec {
+  background: url(images/achievement-bg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+#wordpress-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  color: #fff;
+}
+
+#wordpress-con .wordpress-text {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#wordpress-con img {
+  width: 400px;
+}
+
+@media (max-width: 575px) {
+
+  #wordpress-con img {
+    width: 80%;
+  }
+  #wordpress-con .wordpress-text {
+    width: 100%;
+  }
+}
+
+/* Footer section start */
+
+footer {
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 575px) {
+  .text-top {
+    display: none;
+  }
+}
