@@ -85,7 +85,6 @@ nav .hire-btn a {
 
   #hero-sec .textarea {
     padding-top: 4%;
-    padding-left: 10%;
     line-height: 40px;
     color: #fff;
   }
@@ -102,8 +101,7 @@ nav .hire-btn a {
 }
 
 #hero-sec .vr-img {
-  width: 400px;
-  padding-right: 100px;
+  width: 350px;
 }
 
 @media (max-width: 778px) {
@@ -117,9 +115,12 @@ nav .hire-btn a {
   padding-left: 20px;
 }
 
+#hero-sec {
+  padding: 40px;
+}
+
 #hero-sec .textarea {
   padding-top: 4%;
-  padding-left: 6%;
   line-height: 40px;
   color: #fff;
 }
